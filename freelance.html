@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фриланс</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./source/css/film.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__container-img">
+            <div class="header__img">
+                <img id="img" src="image/bg.png" alt="">
+            </div>
+        </div>
+        <div class="header__container">
+            <div class="header__inner">
+                <a href="" class="logo">
+                    <img src="image/notis-icon.png" alt="logo" class="logo-image">
+                </a>
+                <nav class="header__nav">
+                    <ul class="nav-menu">
+                        <li class="menu-list">
+                            <a href="index.html" class="menu-link">Главная</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="shop.html" class="menu-link">Магазин</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="film.html" class="menu-link">Фильмы</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="games.html" class="menu-link">Игры</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="freelance.html" class="menu-link active">Фриланс</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__correct-margins">
+                    <input class="header__search" type="text" placeholder="Search...">
+                    <button class="header__notifications"><img src="image/notifications.png" alt="" class="header__notifications-image"></button>
+                    <div class="header__balance">
+                        <img class="header__balance-img" src="image/wallet.png" alt="">
+                        <span>0.00 ₽</span>
+                    </div>
+                    <div class="header__btn-modal">
+                        <a href="#" class="js-modal-login">
+                            <img class="header__btn-modal__img" src="image/avatar.png" alt="">
+                        </a>
+                    </div>
+                    <a href="#" class="header__other"><img src="./image/other.png" alt=""></a>
+                </div>
+            </div>
+            <div class="header__popup-overlay hidden">
+                <div class="header__popup hidden">
+                    <div class="header__popup-text">
+                        <p class="text">Регистрация временно недоступна</p>
+                    </div>
+                    <div class="header__popup-img">
+                        <div class="header__popup-img__text">
+                            <div class="title-desc">
+                                <p class="header__popup-img__title">Добро пожаловать!</p>
+                                <p class="header__popup-img__desc">Чтобы оставаться на связи с нами, пожалуйста, войдите, используя свои личные данные.</p>
+                            </div>
+                            <div class="opis-img">
+                                <p class="header__popup-img__opis">Нажмите на пустую область</p>
+                                <img class="header__popup-img__img" src="image/click-img.png" alt="xz">
+                            </div>
+                        </div>
+                        <img src="image/img-popup.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="./source/Js/varibles.js"></script>
+    <script type="module" src="./source/Js/main.js"></script>
+</body>
+</html>
